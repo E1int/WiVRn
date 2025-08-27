@@ -85,7 +85,7 @@ ln -s ~/.config/openxr/1 ~/.var/app/com.valvesoftware.Steam/.config/openxr/1
 ### Audio
 When the headset is connected, WiVRn will create a virtual output device named WiVRn. It is not selected as default and you should either assign the application to the device when it is running, or mark it as default. To do so you can use `pavucontrol` or your desktop environment's configuration panel. Please note that in `pavucontrol` it will appear as a virtual device.
 
-For microphone, you first have to enable it on the settings tabs on the headset (and give permission when prompted). It will then appear as a virtual input device named WiVRn(microphone) and also needs to be assigned like for output device.
+For microphone, you first have to enable it on the settings tabs on the headset (and give permission when prompted). It will then appear as a virtual input device named "WiVRn (microphone)" and also needs to be assigned like for output device.
 
 
 # Building

@@ -158,7 +158,7 @@ wivrn::wivrn_session::wivrn_session(std::unique_ptr<wivrn_connection> connection
 	{
 		audio_handle = audio_device::create(
 		        "wivrn.source",
-		        "WiVRn(microphone)",
+		        "WiVRn (microphone)",
 		        "wivrn.sink",
 		        "WiVRn",
 		        get_info(),
